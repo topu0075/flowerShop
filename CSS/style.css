@@ -3,8 +3,45 @@
     margin: 0;
     padding: 0;
 }
-
+body{
+    font-family: 'Lato', sans-serif;
+}
+.btn-primary{
+    border-radius: 8px;
+    background: #E55473;
+    color: #FFF;
+    font-size: 18px;
+    border:0;
+    padding: 20px 40px;
+}
 /* header section */
 header{
     background: #E554731A;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0px 200px;
 }
+
+header img{
+    width: 630px;
+    padding-top: 50px;
+    margin-bottom: -2px;
+}
+.banner-content{
+    max-width: 600px;
+}
+.banner-title{
+    color: #272727;
+    font-size: 70px;
+    font-weight: 900;
+    /* padding-right: 150px; */
+}
+
+.banner-description{
+    color: #27272799;
+    font-size: 18px;
+    font-weight: 400;
+    margin: 20px 0px 30px 0px;
+}
+
