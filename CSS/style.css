@@ -14,6 +14,21 @@ body{
     border:0;
     padding: 20px 40px;
 }
+span{
+    color: #E55473; 
+}
+.section-title{
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800; 
+}
+.section-description{
+    color: rgba(39, 39, 39, 0.60);
+text-align: center;
+font-size: 18px;
+font-weight: 400;
+}
+
 /* header section */
 header{
     background: #E554731A;
@@ -43,5 +58,26 @@ header img{
     font-size: 18px;
     font-weight: 400;
     margin: 20px 0px 30px 0px;
+}
+
+/* hot-deals section */
+.section{
+    max-width: 1440px;
+}
+.hot-deals{
+    background: #E554731A;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 90px 400px;
+}
+
+.hot-deals-contents{
+        max-width: 580px;
+        text-align: center;
+}
+
+.hot-deals-contents p{
+    margin: 20px 0px 28px 0px;
 }
 
